@@ -1,11 +1,17 @@
 <script>
-
+import foods from './asset/foods/foods.json'
 
 export default {
   data() {
     return {
-      message: 'Foods'
+      message: 'Food List',
+      foods: foods
     };
+  },
+  mounted(){
+
+      console.table(this.foods.length)
+
   }
 };
 
@@ -17,11 +23,15 @@ export default {
 
   <h1>{{ message }}</h1>
 
-  <food-item />
-  
-  <food-item />
-  
-  <food-item />
+  <food-item 
+    v-for="food in foods"
+    :foodName="food.foodName"
+    :foodDesc="food.foodDescription"
+    :protein="food.protein"
+    :calories="food.calories"
+    :type="food.foodType"
+    v-bind:isFavorite="true"
+  />
 
 </template>
 

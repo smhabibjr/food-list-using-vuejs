@@ -1,0 +1,37 @@
+[
+    {
+      "foodName": "Chicken Breast",
+      "foodDescription": "A boneless, skinless chicken breast.",
+      "foodType": "Meat",
+      "protein": 26.2,
+      "calories": 165
+    },
+    {
+      "foodName": "Brown Rice",
+      "foodDescription": "A whole grain rice that is high in fiber and complex carbohydrates.",
+      "foodType": "Grain",
+      "protein": 2.8,
+      "calories": 216
+    },
+    {
+      "foodName": "Broccoli",
+      "foodDescription": "A green vegetable that is high in vitamins C and K.",
+      "foodType": "Vegetable",
+      "protein": 2.8,
+      "calories": 31
+    },
+    {
+      "foodName": "Salmon",
+      "foodDescription": "A fatty fish that is high in omega-3 fatty acids.",
+      "foodType": "Fish",
+      "protein": 22.6,
+      "calories": 208
+    },
+    {
+      "foodName": "Eggs",
+      "foodDescription": "A nutrient-rich food that is high in protein and choline.",
+      "foodType": "Dairy",
+      "protein": 6.3,
+      "calories": 78
+    }
+  ]
